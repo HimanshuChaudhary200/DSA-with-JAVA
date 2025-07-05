@@ -1,0 +1,15 @@
+//Output in JAVA
+public class JavaRevision{
+    public static void main(String args[]){
+        System.out.println("Hello Himanshu");// ln gives space of a line
+        System.out.println("Hello Himanshu");
+        System.out.println("Hello Himanshu");
+
+        System.out.println("I am a good boy\n"); //\n also gives a space of a line
+
+        //So there are three ways of output in java
+        //print
+        //println
+        //\n
+    }
+}
