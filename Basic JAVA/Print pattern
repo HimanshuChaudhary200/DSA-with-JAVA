@@ -1,0 +1,9 @@
+//Print pattern using output
+public class JavaRevision{
+    public static void main(String args[]){
+        System.out.println("****");
+        System.out.println("***");
+        System.out.println("**");
+        System.out.println("*");
+    }
+}
