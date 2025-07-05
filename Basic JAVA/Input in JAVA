@@ -1,0 +1,23 @@
+import java.util.*;
+public class JavaRevision{
+    public static void main(String args[]){
+        Scanner sc =new Scanner(System.in);
+        // int number=sc.nextInt();
+        // System.out.println("Input number is: "+ number);
+
+        String name=sc.nextLine();   //nextLine() captures the whole paragraph
+        System.out.println(name);     //next() captures only the single word
+
+        // Inputs in JAVA
+        /* next
+         * nextLine
+         * nextInt
+         * nextByte
+         * nextFloat
+         * nextDouble
+         * nextBoolean
+         * nextLong
+         */ 
+        
+    }
+}
