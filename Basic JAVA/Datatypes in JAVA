@@ -1,0 +1,23 @@
+//Datatypes inJAVA
+public class JavaRevision{
+    public static void main(String args[]){
+        int a=20;  //int is used to store integer type value
+        int b=23;
+        System.out.println(a);
+        System.out.println(b);
+
+        String name="Himanshu punia";   //String is used to store the words
+        System.out.println(name);
+
+        char c='a';       //char is used to stre only one character
+        System.out.println(c);
+
+        boolean var=false;    //boolean gives only true or false
+
+        byte s =8;
+        System.out.println(b);
+
+        //long
+        //double
+    }
+}
