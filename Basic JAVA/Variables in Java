@@ -1,0 +1,15 @@
+//Variables inJAVA
+public class JavaRevision{
+    public static void main(String args[]){
+        int a=20;
+        int b=23;
+        System.out.println(a);
+        System.out.println(b);
+
+        String name="Himanshu punia";
+        System.out.println(name);
+
+        a=56;           // The value of a variable can be changed
+        System.out.println(a);
+    }
+}
