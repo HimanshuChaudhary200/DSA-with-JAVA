@@ -1,0 +1,21 @@
+ //Assignment operators
+import java.util.*;
+public class JavaRevision{
+    public static void main(String args[]){
+
+        // assignment operator
+        int a =20;   //=
+
+        a+=20;   //a+=20  =  a=a+20
+        System.out.println("a is: "+a);
+
+        a-=13;    //a-=13   = a=a-13
+        System.out.println("a is: "+a);
+
+        a/=10;    // a/=10  =  a=a/10
+        System.out.println("a is: "+a);
+
+        a*=5;           //a*=5  = a=a*5
+        System.out.println("a is : "+a);
+    }
+}
