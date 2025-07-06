@@ -1,0 +1,21 @@
+ //Relational operators
+import java.util.*;
+public class JavaRevision{
+    public static void main(String args[]){
+
+        //Logical AND operator
+
+        System.out.println(5<8 && 7<9);
+        System.out.println(3>7 && 7<0);
+        System.out.println(5<7 && 7>9);
+
+        //Logical OR operator
+        System.out.println(4<8 ||7<9);
+        System.out.println(8<4 ||8<3);
+
+        //Logical NOT operator
+        System.out.println(!(4<8));
+
+
+    }
+}
