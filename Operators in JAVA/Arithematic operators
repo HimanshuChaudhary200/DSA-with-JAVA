@@ -1,0 +1,20 @@
+import java.util.*;
+public class JavaRevision{
+    public static void main(String args[]){
+        int a=7;
+        int b=6;
+
+        int sum= a+b;
+        int product=a*b;
+        int divide=a/b;
+        int remainder=a%b;
+        int subtract=a-b;
+
+        System.out.println("Sum is: "+sum);
+        System.out.println("Product is: "+product);
+        System.out.println("divide is: "+divide);
+        System.out.println("Remainder(modulo) is: "+remainder);
+        System.out.println("Subtraction is: "+subtract);
+    
+    }
+}
