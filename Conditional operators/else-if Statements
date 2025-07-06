@@ -1,0 +1,19 @@
+ //else-if statements
+import java.util.*;
+public class JavaRevision{
+    public static void main(String args[]){
+        int age=13;
+
+        if(age>=18){
+            System.out.println("Adult");
+        }
+
+        else if(age>12 && age<18){
+            System.out.println("Teenager");
+        }
+
+        else{
+            System.out.println("Children");
+        }      
+    }
+}
