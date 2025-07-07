@@ -1,0 +1,23 @@
+  //Print the reverse of a number 
+import java.util.*;
+public class JavaRevision{
+    public static void main(String args[]){
+        // int n=65834;
+        //Using for loop
+        for(int n=65834; n>0; n=n/10){
+            int lastdigit=n%10;
+            System.out.print(lastdigit+" ");
+        }
+        System.out.println();
+
+        //using while loop
+        int n=65834;
+        while(n>0){
+            int lastdigit=n%10;
+            System.out.print(lastdigit+ " ");
+            n=n/10;
+        }
+        System.out.println();
+    }
+          
+}   
