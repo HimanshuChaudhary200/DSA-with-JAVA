@@ -1,0 +1,17 @@
+  //Sum of numbers from 1 to n using while loop
+import java.util.*;
+public class JavaRevision{
+    public static void main(String args[]){
+        Scanner sc =new Scanner(System.in);
+        int n=sc.nextInt();
+
+        int sum=0;
+        int val=1;
+        while(val<=n){
+            sum=sum+val;
+            System.out.println(sum);
+            val++;
+        }
+        
+    }   
+}
