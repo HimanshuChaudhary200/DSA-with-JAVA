@@ -1,0 +1,18 @@
+ /*
+   * Product of two numbers
+   */
+
+import java.util.*;
+public class JavaRevision{
+    public static int calculateSum(int a,int b){ // parameters or formal parameters
+        int product=a*b;
+        // System.out.println("Sum is: "+sum);
+        return product;
+    }
+
+    public static void main(String args[]){
+        int prod=calculateSum(3, 6);
+        System.out.println("Product is : "+prod);
+        
+    }
+}     
