@@ -1,0 +1,18 @@
+import java.util.*;
+public class JavaRevision{
+    public static int btod(int binnum)  {
+        int decnum=0;
+        int pow=0;
+        while(binnum>0){
+            int lastDigit=binnum%10;
+            decnum=decnum+(lastDigit* (int)Math.pow(2,pow));
+            pow++;
+            binnum=binnum/10;
+        }
+        return decnum;
+    }  
+    public static void main(String args[]){
+        int num =btod(111);
+        System.out.println("The decimal is : " +  num);
+    }
+}
