@@ -1,0 +1,29 @@
+  //Linear searching
+
+import java.util.*;
+
+public class JavaRevision{
+
+    public static int linearSearch(int numbers[], int key){
+        for(int i=0;i<numbers.length;i++){
+            if(numbers[i]==key){
+                return i;
+            }
+            
+        }
+        return -1;
+    }
+    public static void main(String args[]){
+        int numbers[]={34,7,8,21,4,6,9,23};
+        int key=4;
+
+        int index=linearSearch(numbers, key);
+        if(index==-1){
+            System.out.println("invalid key");
+        }
+        else{
+            System.out.println("The number is present at " +index+ " index ");
+        }
+        
+    }
+}
