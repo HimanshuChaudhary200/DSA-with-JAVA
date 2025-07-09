@@ -1,0 +1,22 @@
+  //Find the largest number
+
+import java.util.*;
+
+public class JavaRevision{
+
+    public static int geatLargest(int numbers[]){
+        int largest=Integer.MIN_VALUE;
+        for(int i=0;i<numbers.length;i++){
+            if(largest < numbers[i]){
+                largest=numbers[i];
+            }
+            
+        }
+        return largest;
+    }
+    public static void main(String args[]){
+        int numbers[]={34,7,8,21,4,6,9,23};
+        System.out.println("The largest number is : "+geatLargest(numbers));
+        
+    }
+}
