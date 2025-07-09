@@ -1,0 +1,24 @@
+  //Arrays
+
+import java.util.*;
+
+public class JavaRevision{
+    public static void main(String args[]){
+        int marks[]=new int[100];
+        Scanner sc=new Scanner(System.in);
+
+        marks[0]=sc.nextInt();  //Ararys Input
+        marks[1]=sc.nextInt();
+        marks[2]=sc.nextInt();
+
+        System.out.println("Phys marks: "+marks[0]);    //Arrays output
+        System.out.println("chem marks: "+marks[1]);
+        System.out.println("maths marks: "+marks[2]);
+
+
+        marks[2]=76;    //Updation
+        System.out.println("maths marks: "+marks[2]);
+
+        
+    }
+}
