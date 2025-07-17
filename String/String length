@@ -1,0 +1,14 @@
+//Find out the string length
+
+import java.util.*;
+
+public class Strings {
+    public static void main(String[] args) {
+
+        String name="Himanshu punia";
+        System.out.println(name.length());
+
+    }
+    
+    
+}
