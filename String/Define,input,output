@@ -1,0 +1,22 @@
+//String define,input,output
+
+import java.util.*;
+
+public class Strings {
+    public static void main(String[] args) {
+        //Define of string
+        String str="abcd";
+        String str2=new String("abcd");
+        System.out.println(str2);
+
+        //Strings are immutable
+
+        //Taking input, output 
+        Scanner sc=new Scanner(System.in);
+        String name=sc.next();
+        System.out.println(name);
+
+    }
+    
+    
+}
