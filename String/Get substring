@@ -1,0 +1,28 @@
+//Get substring from a string
+
+import java.util.*;
+
+public class Strings {
+
+    public static String getSubstring(String name, int si, int en){
+        String sub="";
+        for(int i=si;i<en;i++){
+            sub=sub+name.charAt(i);
+        }
+        return sub;
+
+        
+    }
+            
+            
+    public static void main(String[] args) {
+        
+        
+
+        String name="Himanshu Punia";
+        System.out.println(getSubstring(name, 1, 12));
+        
+    }
+    
+    
+}
