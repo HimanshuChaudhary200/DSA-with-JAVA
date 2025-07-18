@@ -1,0 +1,33 @@
+//Print largest string
+
+import java.util.*;
+
+public class Strings {
+
+    public static String getSubstring(String name, int si, int en){
+        String sub="";
+        for(int i=si;i<en;i++){
+            sub=sub+name.charAt(i);
+        }
+        return sub;
+
+        
+    }
+            
+            
+    public static void main(String[] args) {
+        String fruits[]={"apple", "banana", "orange", "Guvava"};
+        String largest=fruits[0];
+
+        for(int i=1;i<fruits.length;i++){
+            if(largest.compareTo(fruits[i])<0){
+                largest=fruits[i];
+            }
+
+        }
+        System.out.println(largest);
+        
+    }
+    
+    
+}
