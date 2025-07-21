@@ -1,0 +1,21 @@
+//  Update ith bit
+import java.util.*;
+public class DataStructure{
+
+
+    public static int clearithBit(int n, int i){
+        int bitmask=~(1<<i);
+        return n&bitmask;
+        
+    }     
+
+    public static int updateIthBit(int n, int i, int newnum){
+         n=clearithBit(n, i);
+         int bitmask=newnum<<i;
+         return n|bitmask;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(updateIthBit(10, 2, 1));
+    }
+}
